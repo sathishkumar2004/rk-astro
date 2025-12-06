@@ -1,5 +1,5 @@
 const moment = require('moment-timezone');
-const config = require('../config/config');
+const config = require('../db');
 
 let swisseph = null;
 try { swisseph = require('swisseph'); } catch (e) { /* optional */ }
