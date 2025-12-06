@@ -33,8 +33,8 @@ app.use('/api/thandhirikams', thandhirikamRoutes);
 const bookmark =require('./Routes/bookmarkRoutes');
 app.use('/api/bookmark',bookmark);
 
-const calculate =  require('./Routes/calculateRoutes')
-app.use('/api/chart', calculate)
+const chartRoutes = require('./Routes/calculateRoutes'); 
+app.use('/api/chart', chartRoutes)
 
 
 // 🛠️ Alter DB schema to match updated models

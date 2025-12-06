@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const controller = require('../controllers/calculateController');
+const controller = require('../Controllers/calculateController');
 
 // Main calculation endpoint
 router.post('/', controller.calculateChart);
